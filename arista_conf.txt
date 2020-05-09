@@ -1,0 +1,41 @@
+I created three virtual machines to test with the following commands.
+
+Arista 1
+________________________________________
+enable
+configure terminal
+hostname Arista1
+username admin secret python
+int management 1
+ip add 10.10.10.2 255.255.255.0
+int loopback 0
+ip add 1.1.1.1 255.255.2550
+no shut
+copy run start
+
+Arista 2
+__________________________________________
+enable
+configure terminal
+hostname Arista2
+username admin secret python
+int management 1
+ip add 10.10.10.3 255.255.255.0
+int loopback 0
+ip add 2.2.2.2 255.255.2550
+no shut
+copy run start
+
+
+Arista 3
+________________________________________
+enable
+configure terminal
+hostname Arista3
+username admin secret python
+int management 1
+ip add 10.10.10.4 255.255.255.0
+int loopback 0
+ip add 3.3.3.3 255.255.2550
+no shut
+copy run start
