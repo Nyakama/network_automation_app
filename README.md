@@ -11,4 +11,4 @@ Requirements:
 
 1. paramiko (Recommended way to get Paramiko is to install the latest stable release via pip: $ pip install paramiko)
 
-Arista Virtual machine configurations are saved in the project folder in the arista_conf.txt file.
+Arista Virtual machine configurations are saved in the repository folder in the arista_conf.txt file.
